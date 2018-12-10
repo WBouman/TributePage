@@ -16,10 +16,11 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="TributePage.css">
 
-	<title>Myles Kennedy Tribute Page</title>
+	<title id="title">Myles Kennedy Tribute Page</title>
 </head>
 
 <body>
+	<div id="main">
 	<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
 		<a href="#" class="navbar-brand">MYLES KENNEDY</a>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
@@ -54,7 +55,7 @@
 					<div class="col-11 col-lg-9">
 						<div class="text-white">
 							<h1>ABOUT</h1>
-							<p class="text-justify">Myles Richard Kennedy is an American musician, singer/ songwriter who is best known as
+							<p id="tribute-info" class="text-justify">Myles Richard Kennedy is an American musician, singer/ songwriter who is best known as
 								the lead vocalist and rhythm guitarist of the rock band Alter Bridge. He is also the lead vocalist and rythm guitarist in Slash's soloband,
 								known as Slash ft. Myles Kennedy and the Conspirators. His trademark is his impressive four-octave vocal range.</br>
 							<p class="text-justify">Myles Kennedy was born as Myles Richard Bass on November 27, 1969 in Boston,
@@ -79,15 +80,19 @@
 								Johnson. They signed a contract with Epic Records thanks to a critically acclaimed demo called Thirty Two Point Five
 								Hours that the band recorded in 1996, followed by a live extended play called Motion in 1997. The Mayfield Four's
 								debut album, Fallout, was supported with a fifteen-month tour with bands such as Creed, Big Wreck, and Stabbing
-								Westward. Though popular, The Mayfield Four never garnered enough exposure to break into the mainstream. In 2002, the
+								Westward. The album was praised by critics, but it failed to chart, and ultimately became the only album by the band to feature rhythm guitarist 
+								Craig Johnson, who was fired from the band due to undisclosed reasons. Following the release of the album, the band's second and final album, 
+								Second Skin, was released in June 2001. The album has been critically acclaimed and Kennedy has commented on how it and Fallout are much more 
+								popular now than when they were released. Though popular, The Mayfield Four never garnered enough exposure to break into the mainstream. In 2002, the
 								future of the band began to look unlikely. The band went on hiatus that year, and would ultimately disband.</p>
 							<p class="text-justify">Want to know more about The Mayfield Four? Click <a class="infoLink" href="https://en.wikipedia.org/wiki/The_Mayfield_Four" target="_blank">here.</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 px-0 order-1 order-md-2 content">
-				<img class="img-fluid" src="https://www.ultimate-guitar.com/static/article/news/7/68077_0_wide_ver1509044386.jpg" alt="The Mayfield Four">
+			<div class="col-md-6 px-0 order-1 order-md-2 content" id="img-div">
+				<img id="image" class="img-fluid" src="https://www.ultimate-guitar.com/static/article/news/7/68077_0_wide_ver1509044386.jpg" alt="The Mayfield Four">
+			<div id="img-caption">The Mayfield Four when there were still four of them.</div>
 			</div>
 		</div>
 
@@ -168,8 +173,8 @@
 								May 22, 2012. The album will be billed to "Slash featuring Myles Kennedy and the Conspirators", featuring Kennedy,
 								Kerns, and Fitz as members of Slash's band. The first single, "You're a Lie", was released to rock radio on February
 								27th, 2012. The band's second collective album World on Fire is produced by Michael "Elvis" Baskette and was released
-								on September 16th, 2014. The band's third album Living the Dream, again produced by Michael "Elvis" Baskette is
-								scheduled for a September 21, 2018 release.</p>
+								on September 16th, 2014. The band's third album Living the Dream, again produced by Michael "Elvis" Baskette was released
+								at September 21, 2018.</p>
 							<p>More about Slash and Myles is found <a class="infoLink" href="http://www.slashonline.com/" target="_blank">here</a> and <a class="infoLink" href="https://en.wikipedia.org/wiki/List_of_Slash_band_members" target="_blank">here.</a></p>
 						</div>
 					</div>
@@ -249,9 +254,10 @@
 	<div class="container-fluid px-0">
 		<footer class="pt-3">
 			<p class="footerText">FreeCodeCamp Project by
-				<a class="footerLink" href="https://www.linkedin.com/in/wawbouman/" target="_blank"> Wendy Bouman</a>
+				<a id="tribute-link" href="https://www.linkedin.com/in/wawbouman/" target="_blank"> Wendy Bouman</a>
 			</p>
 		</footer>
 	</div>
+</div>
 </body>
 </html>
