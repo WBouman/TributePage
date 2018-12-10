@@ -1,4 +1,4 @@
-body {
+#main {
    background-color: #0b0c10;
    font-family: "Nunito", sans-serif; 
 }
@@ -57,16 +57,14 @@ h2 {
     color: #45A29E;
 }
 
-h3 {
-    font-weight: 100;
-    font-size: 2rem;
-    color: #45A29E;
-    
+#image {
+    display: block;
 }
-h4 {
+
+#img-caption {
     font-weight: 100;
-    font-size: 1rem;
-    color: #45A29E;
+    font-size: 0.7rem;
+    color: #C5C6C7;
 }
 
 p{
@@ -87,10 +85,10 @@ footer {
     font-size: 1.125rem;
 }
 
-.footerLink, .infoLink {
+#tribute-link, .infoLink {
     color: #45A29E;
 }
 
-.footerLink:hover, .infoLink:hover {
+#tribute-link:hover, .infoLink:hover {
     color: #66FCF1;
 }
