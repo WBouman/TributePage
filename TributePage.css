@@ -1,13 +1,10 @@
-
-
 Body {
    background-color: #0b0c10;
    font-family: "Nunito", sans-serif; 
 }
 
 .content {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #mainNavbar .navbar-brand {
@@ -25,6 +22,7 @@ Body {
     color: #C5C6C7;
 }
 
+
 #mainNavbar .nav-link:hover {
     color: #66FCF1;
 }
@@ -35,7 +33,7 @@ Body {
 }
 
 .dropdown-menu {
-    background: transparent;
+    background: rgba(31, 40, 51, 0.5);
     border: none;
 }
 
@@ -46,6 +44,12 @@ Body {
 .dropdown-item:hover {
     background-color: #45A29E;
   }
+
+h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    color: #45A29E; 
+}
 
 h2 {
     font-weight: 100;
@@ -83,12 +87,10 @@ footer {
     font-size: 1.125rem;
 }
 
-.footerLink {
-    color: #C5C6C7;
+.footerLink, .infoLink {
+    color: #45A29E;
 }
 
-.footerLink:hover {
+.footerLink:hover, .infoLink:hover {
     color: #66FCF1;
 }
-
-
