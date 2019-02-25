@@ -294,7 +294,19 @@
 		 crossorigin="anonymous"></script>
 		
 
-	
+	<script>
+			$(function () {
+				$(document).scroll(function () {
+					var $nav = $("#mainNavbar");
+					$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+				});
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+				$('.dropdown-toggle').dropdown();
+			});
+		</script>
 
 	</div>
 </body>
